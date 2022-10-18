@@ -1,0 +1,706 @@
+@media screen and (max-width: 1400px) {
+    .wrapper .filter-menu {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .gallery .filter-items {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .footer-col {
+        padding-left: 1rem;
+        margin-left: 0;
+        width: 45%;
+    }
+
+    .about-image {
+        height: 480px;
+    }
+
+    .review-wrap {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .about-wrap {
+        padding: 0 1rem 6rem 1rem;
+    }
+
+    .about-image {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .main-menu ul li {
+        padding: 0 0.2rem;
+    }
+
+    .footer-content {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .about-image {
+        height: 520px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .main-menu {
+        position: relative;
+        top: initial;
+        left: initial;
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+
+    .about-image {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .service-gallery-content .service-project-title-area {
+        padding: 0 2rem 0 2rem;
+    }
+
+    .service-gallery-content .service-project-title-area p {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .carousel-caption {
+        width: 600px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 3rem;
+    }
+
+    .about-image {
+        height: 640px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .service-gallery-content .preview-details p {
+        font-size: 1.2rem;
+        padding-left: 2rem;
+    }
+
+    .about {
+        padding-bottom: 0;
+    }
+
+    .about-wrap {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-bottom: 4rem;
+    }
+
+    .about-wrap-2 {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    }
+
+    .about-image {
+        width: 100%;
+    }
+
+    .about-description {
+        padding-top: 2rem;
+        width: 100%;
+    }
+
+    .customer-review {
+        height: 900px;
+    }
+
+    .review-wrap {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .review-box {
+        margin: 1.2rem 0 1.2rem 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .footer-col.location {
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .topbar {
+        padding: 0.7rem 3rem;
+    }
+
+    .navbar-brand {
+        padding-left: 2rem;
+    }
+
+    .carousel-caption {
+        width: 500px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 2.6rem;
+    }
+
+    .carousel-caption p {
+        padding: 0.8rem 1rem;
+    }
+
+    .carousel-caption p a {
+        font-size: 1.1rem;
+    }
+
+    .contact-wrap {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .contact-address {
+        width: 100%;
+    }
+
+    .contact-form {
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    .footer-col {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .service-row-img {
+        height: 500px;
+        width: 560px;
+    }
+
+    .service-row-text {
+        height: 320px;
+        width: 580px;
+    }
+
+    .service-row-text h2 {
+        font-size: 2rem;
+        padding: 1.4rem 1.4rem 0 1.4rem;
+    }
+
+    .service-row-text h2::first-letter {
+        font-size: 2.4rem;
+    }
+
+    .service-row-text p {
+        padding: 0.6rem 1.4rem 0 1.4rem;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .lightbox {
+        max-width: 600px;
+        max-height: 400px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .footer-content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .footer-col {
+        width: 80%;
+    }
+
+    .footer-col1 {
+        margin-bottom: 3rem;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .topbar {
+        padding: 0.7rem 0.4rem;
+    }
+
+    .info-content p,
+    .location-topbar p {
+        font-size: 1rem;
+    }
+
+    .info-content .phone,
+    .info-content .email {
+        margin-top: 0.2rem;
+    }
+
+    .navbar-brand {
+        padding-left: 0.6rem;
+    }
+
+    .about-image {
+        height: 520px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .service-row-img {
+        height: 400px;
+        width: 460px;
+    }
+
+    .service-row-text {
+        height: 320px;
+        width: 480px;
+    }
+
+    .service-row-text p {
+        font-size: 1rem;
+    }
+
+    .lightbox {
+        max-width: 500px;
+        max-height: 360px;
+    }
+
+    .lightbox-header {
+        padding-bottom: 0.4rem;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .contact {
+        padding: 3rem 0 5rem 0;
+    }
+
+    .contact-wrap {
+        padding: 0 2rem;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .customer-review {
+        height: 980px;
+    }
+
+    .footer-col {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .breadcrumb-area .container-lg {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .breadcrumb-area .title h2 {
+        margin-bottom: 1rem;
+    }
+
+    .carousel-caption {
+        width: 380px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 2.2rem;
+    }
+
+    .service-row-img {
+        height: 360px;
+        width: 400px;
+    }
+
+    .service-row-text {
+        height: 300px;
+        width: 400px;
+    }
+
+    .service-row-text h2 {
+        font-size: 1.4rem;
+        padding: 1rem 1rem 0 1rem;
+    }
+
+    .service-row-text h2::first-letter {
+        font-size: 1.8rem;
+    }
+
+    .service-row-text p {
+        padding: 0.4rem 1rem 0 1rem;
+    }
+
+    .lightbox {
+        max-width: 460px;
+        max-height: 320px;
+    }
+
+    .lightbox-header {
+        padding-bottom: 0.2rem;
+    }
+
+    .about-image {
+        height: 460px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .lightbox {
+        max-width: 420px;
+        max-height: 280px;
+    }
+
+    .filter-menu li {
+        padding: 0.3rem 1rem;
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .about-image {
+        height: 400px;
+    }
+
+    .service-row-img {
+        height: 360px;
+        width: 360px;
+    }
+
+    .service-row-text {
+        height: 360px;
+        width: 360px;
+    }
+
+    .service-row-text h2 {
+        font-size: 1.4rem;
+        padding: 2rem 1rem 0 1rem;
+    }
+
+    .service-row-text p {
+        padding: 0.4rem 1rem 0 1rem;
+    }
+
+    .construction-text {
+        top: 0;
+        left: 0;
+        -webkit-transform: translate(5%, 12%);
+        -ms-transform: translate(5%, 12%);
+        transform: translate(5%, 12%);
+    }
+
+    .interior-text {
+        top: 0;
+        left: 0;
+        -webkit-transform: translate(2%, 12%);
+        -ms-transform: translate(2%, 12%);
+        transform: translate(2%, 12%);
+    }
+
+    .lightbox {
+        max-width: 370px;
+        max-height: 260px;
+    }
+
+    .service-gallery-content .service-project-title-area {
+        padding: 0 1rem 0 1rem;
+    }
+
+    .service-gallery-content .service-project-title-area p {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .about-image {
+        height: 380px;
+    }
+
+    .carousel-caption {
+        width: 280px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 1.7rem;
+    }
+
+    .carousel-caption p {
+        padding: 0.5rem 0.7rem;
+    }
+
+    .carousel-caption p a {
+        font-size: 0.8rem;
+    }
+
+    .lightbox {
+        max-width: 340px;
+        max-height: 240px;
+    }
+
+    .copyright p {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .about-description h3 {
+        font-size: 1.4rem;
+    }
+
+    .about-description h1 {
+        font-size: 2.2rem;
+    }
+
+    .about-description p {
+        font-size: 1.1rem;
+    }
+
+    .navbar-brand img {
+        height: 3rem;
+        width: 7rem;
+    }
+
+    .nav-content .quote-btn {
+        top: 0.66rem;
+        right: 5.2rem;
+    }
+
+    .nav-content .quote-btn a {
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+
+    .service-row-img {
+        height: 340px;
+        width: 100%;
+    }
+
+    .service-row-text {
+        height: auto;
+        width: 90%;
+    }
+
+    .service-row-text h2 {
+        font-size: 1.4rem;
+        padding: 2rem 1rem 0 1rem;
+    }
+
+    .service-row-text p {
+        padding: 0.4rem 1rem 0 1rem;
+    }
+
+    .service-row-text .learn-more-btn {
+        padding-bottom: 1.6rem;
+    }
+
+    #construction {
+        margin-bottom: 4rem;
+    }
+
+    #interior {
+        margin-bottom: 4rem;
+    }
+
+    .construction-text {
+        top: 0;
+        left: 50%;
+        -webkit-transform: translate(-50%, 12%);
+        -ms-transform: translate(-50%, 12%);
+        transform: translate(-50%, 12%);
+    }
+
+    .interior-text {
+        top: 0;
+        left: 50%;
+        -webkit-transform: translate(-50%, 12%);
+        -ms-transform: translate(-50%, 12%);
+        transform: translate(-50%, 12%);
+    }
+
+    .review-title h1 {
+        font-size: 2.4rem;
+    }
+
+    .service-gallery-wrapper {
+        margin-top: 0 !important;
+    }
+
+    .contact-wrap {
+        padding: 0 1rem;
+    }
+
+    .copyright p {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .about-image {
+        height: 320px;
+    }
+
+    .customer-review {
+        height: 1020px;
+    }
+
+    .card {
+        min-width: 100%;
+        height: 21rem;
+    }
+
+    .card .card-text-content p {
+        font-size: 2.6rem;
+    }
+
+    .service-gallery-content {
+        height: 340px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .about-image {
+        height: 300px;
+    }
+
+    .customer-review {
+        height: 1040px;
+    }
+
+    .card {
+        height: 20rem;
+    }
+
+    .filter-items .filter-content {
+        min-width: 100%;
+    }
+
+    .card .card-text-content p {
+        font-size: 2rem;
+    }
+
+    .lightbox {
+        max-width: 300px;
+        max-height: 220px;
+    }
+
+    .filter-menu li {
+        padding: 0.2rem 1rem;
+        font-size: 1rem;
+        border-radius: 0.1rem;
+    }
+
+    .filter-items .filter-content {
+        height: 260px;
+    }
+
+    .service-gallery-content {
+        height: 320px;
+    }
+
+    .footer-col {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .news,
+    .location {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .about-image {
+        height: 280px;
+    }
+
+    .about-description h3 {
+        font-size: 1.3rem;
+    }
+
+    .about-description h1 {
+        font-size: 2rem;
+    }
+
+    .about-description p {
+        font-size: 1rem;
+    }
+
+    .customer-review {
+        height: 1080px;
+    }
+
+    .review-box p {
+        font-size: 1rem;
+    }
+
+    .filter-items .filter-content .project-title-area {
+        padding: 0 1rem 0 1rem;
+    }
+
+    .filter-items .filter-content .project-title-area p {
+        font-size: 1.3rem;
+    }
+
+    .contact {
+        padding: 2rem 0 3rem 0;
+    }
+
+    .copyright p {
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .navbar-brand img {
+        height: 2.2rem;
+        width: 5rem;
+    }
+
+    .nav-content .quote-btn {
+        top: 0.3rem;
+        right: 5.2rem;
+    }
+
+    .nav-content .quote-btn a {
+        font-size: 0.6rem;
+        font-weight: bold;
+    }
+
+    .card {
+        height: 18rem;
+    }
+
+    .filter-items .filter-content .project-title-area p {
+        font-size: 1.2rem;
+    }
+
+    footer span {
+        font-size: 0.8rem;
+    }
+}

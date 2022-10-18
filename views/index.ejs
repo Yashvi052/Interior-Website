@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<!--
+Template name: Interiorx
+Author: Md. Riazul Islam
+Author URI: https://github.com/riazul82
+Date: June, 2022
+--------------------------------------------->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- animate css cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- aos cdn link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- custom styles -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
+    <title>Interior Design World </title>
+</head>
+
+<body>
+    <!-- topbar start -->
+   <!--- <div class="topbar container-fluid d-flex flex-wrap justify-content-center justify-content-lg-between">
+        <div class="info-topbar mt-2 d-flex flex-wrap justify-content-center justify-content-lg-between">
+            <div class="info-content d-inline-flex">
+                <div class="mt-1"><span class="icon-phone-alt"></span></div>
+                <p class="phone ms-2">+88 01234-567899, +88 01298-765431</p>
+            </div>
+
+            <div class="info-content ms-4 d-inline-flex">
+                <div class="mt-1"><span class="icon-envelope"></span></div>
+                <p class="email ms-2">interiorx@example.com</p>
+            </div>
+        </div>
+
+        <div class="location-topbar ms-3 mt-2 d-flex align-items-center">
+            <p>North Tower(3rd floor), Dhaka, Bangladesh</p>
+        </div>
+    </div>-->
+    <!-- topbar end -->
+
+
+
+
+
+    <!-- header start -->
+    <%- include('header'); -%>
+
+    <!-- header end -->
+
+
+
+
+
+    <!-- hero section start -->
+        <div class="carousel-indicators">
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item carousel-item2 active">
+                <div class="carousel-caption d-block">
+                    <h5 class="animate__animated animate__fadeInDown"
+                        style="animation-duration: 1.7s; animation-delay: 0.6s">We create beautiful home interior design
+                    </h5>
+                    <p class="animate__animated animate__fadeInDown"
+                        style="animation-duration: 1.7s; animation-delay: 1.7s">
+                    </p>
+                </div>
+            </div>
+
+            <div class="carousel-item carousel-item2">
+                <div class="carousel-caption d-block">
+                    <h5 class="animate__animated animate__fadeInDown"
+                        style="animation-duration: 1.7s; animation-delay: 0.6s">Luxury Interior design for your dream
+                        living</h5>
+                    <p class="animate__animated animate__fadeInDown"
+                        style="animation-duration: 1.7s; animation-delay: 1.7s">
+                        <a href="#">Learn More</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="carousel-item carousel-item3">
+                <div class="carousel-caption d-block">
+                    <h5 class="animate__animated animate__fadeInDown"
+                        style="animation-duration: 1.7s; animation-delay: 0.6s">Giving your home a modern and unique
+                        style</h5>
+                    <p class="animate__animated animate__fadeInDown"
+                        style="animation-duration: 1.7s; animation-delay: 1.7s">
+                        <a href="#">Learn More</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- hero section end -->
+
+
+
+
+
+    <!-- services section start -->
+    <div id="services">
+        <div class="section-title pt-5">
+            <h1 class="text-center"><span>Our</span> Services</h1>
+            <p class="text-center">What we do</p>
+        </div>
+
+        <div class="container-lg pt-4 pb-5 d-flex flex-wrap justify-content-center justify-content-lg-start"
+            data-aos="fade-up" data-aos-duration="700">
+            <div class="card mb-5 ms-2 me-2 flex-grow-1">
+                <img src="./img/interior/01.jpg" alt="">
+
+                <div class="card-text-content">
+                    <p>Interior Design</p>
+                </div>
+            </div>
+
+            <div class="card mb-5 ms-2 me-2 flex-grow-1">
+                <img src="./img/construction/01.jpg" alt="">
+
+                <div class="card-text-content">
+                    <p>Architecture</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- services section end -->
+
+
+
+
+
+    <!-- service row start (construction) -->
+    <div id="construction" class="container-lg pt-4 pb-5" data-aos="fade-up" data-aos-duration="700">
+        <div class="service-row construction-content pt-4 pb-4">
+            <div class="service-row-img">
+                <img src="./img/construction/08.jpg" alt="">
+            </div>
+
+            <div class="service-row-text construction-text">
+                <h2>Construction</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos suscipit repellendus ipsa libero totam
+                    quod est cumque nobis architecto fugiat nesciunt ducimus eius Quidem sit commodi nemo quaerat magnam
+                    nostrum voluptatibus fugiat reiciendis ratione pariatur totam voluptatem minima sapiente harum.</p>
+                <p class="learn-more-btn"><a href="#">Learn more</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- service row end -->
+
+
+
+
+
+    <!-- service row start (interior) -->
+    <div id="interior" class="container-lg pt-4 pb-5" data-aos="fade-up" data-aos-duration="700">
+        <div class="service-row interior-content pt-4 pb-4">
+            <div class="service-row-img">
+                <img src="./img/interior/09.jpg" alt="">
+            </div>
+
+            <div class="service-row-text interior-text">
+                <h2>Interiors</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos suscipit repellendus ipsa libero totam
+                    quod est cumque nobis architecto fugiat nesciunt ducimus eius Quidem sit commodi nemo quaerat magnam
+                    nostrum voluptatibus fugiat reiciendis ratione pariatur totam voluptatem minima sapiente harum.</p>
+                <p class="learn-more-btn"><a href="#">Learn more</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- service row end -->
+
+
+
+
+
+    <!-- exclusive project gallery start -->
+    <div class="container-xxl gallery pt-4">
+        <div class="section-title">
+            <h1>Exclusive<span> Projects</span></h1>
+        </div>
+
+        <div class="wrapper">
+            <ul class="filter-menu" data-aos="fade-up" data-aos-duration="500">
+                <li data-list="interior" class="active-menu">Interior</li>
+                <li data-list="construction">Construction</li>
+            </ul>
+
+            <div class="filter-items" data-aos="fade-up" data-aos-duration="700">
+                <div class="filter-content" data-item="interior">
+                    <img src="img/exclusive/01.jpg" alt="">
+                    <p class="hover-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus
+                        exercitationem dolorum sit ipsum saepe provident vel repellat reprehenderit.</p>
+                    <div class="project-title-area">
+                        <p class="project-title">Project Title Here</p>
+                        <p class="project-status">Stauts</p>
+                    </div>
+
+                </div>
+
+                <div class="filter-content" data-item="interior">
+                    <img src="img/exclusive/02.jpg" alt="">
+                    <p class="hover-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus
+                        exercitationem dolorum sit ipsum saepe provident vel repellat reprehenderit.</p>
+                    <div class="project-title-area">
+                        <p class="project-title">Project Title Here</p>
+                        <p class="project-status">Stauts</p>
+                    </div>
+                </div>
+
+                <div class="filter-content" data-item="interior">
+                    <img src="img/exclusive/03.jpg" alt="">
+                    <p class="hover-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus
+                        exercitationem dolorum sit ipsum saepe provident vel repellat reprehenderit.</p>
+                    <div class="project-title-area">
+                        <p class="project-title">Project Title Here</p>
+                        <p class="project-status">Stauts</p>
+                    </div>
+                </div>
+
+                <div class="filter-content" data-item="interior">
+                    <img src="img/exclusive/04.jpg" alt="">
+                    <p class="hover-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus
+                        exercitationem dolorum sit ipsum saepe provident vel repellat reprehenderit.</p>
+                    <p class="hover-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus
+                        exercitationem dolorum sit ipsum saepe provident vel repellat reprehenderit.</p>
+                    <div class="project-title-area">
+                        <p class="project-title">Project Title Here</p>
+                        <p class="project-status">Stauts</p>
+                    </div>
+                </div>
+
+                <div class="filter-content" data-item="interior">
+                    <img src="img/exclusive/05.jpg" alt="">
+                    <p class="hover-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus
+                        exercitationem dolorum sit ipsum saepe provident vel repellat reprehenderit.</p>
+                    <div class="project-title-area">
+                        <p class="project-title">Project Title Here</p>
+                        <p class="project-status">Stauts</p>
+                    </div>
+                </div>
+
+                <div class="filter-content" data-item="interior">
+                    <img src="img/exclusive/06.jpg" alt="">
+                    <p class="hover-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus
+                        exercitationem dolorum sit ipsum saepe provident vel repellat reprehenderit.</p>
+                    <div class="project-title-area">
+                        <p class="project-title">Project Title Here</p>
+                        <p class="project-status">Stauts</p>
+                    </div>
+                </div>
+
+                <div class="filter-content" data-item="construction">
+                    <img src="img/exclusive/07.jpg" alt="">
+                    <p class="hover-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus
+                        exercitationem dolorum sit ipsum saepe provident vel repellat reprehenderit.</p>
+                    <div class="project-title-area">
+                        <p class="project-title">Project Title Here</p>
+                        <p class="project-status">Stauts</p>
+                    </div>
+                </div>
+
+                <div class="filter-content" data-item="construction">
+                    <img src="img/exclusive/08.jpg" alt="">
+                    <p class="hover-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus
+                        exercitationem dolorum sit ipsum saepe provident vel repellat reprehenderit.</p>
+                    <div class="project-title-area">
+                        <p class="project-title">Project Title Here</p>
+                        <p class="project-status">Stauts</p>
+                    </div>
+                </div>
+
+                <div class="filter-content" data-item="construction">
+                    <img src="img/exclusive/09.jpg" alt="">
+                    <p class="hover-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus
+                        exercitationem dolorum sit ipsum saepe provident vel repellat reprehenderit.</p>
+                    <div class="project-title-area">
+                        <p class="project-title">Project Title Here</p>
+                        <p class="project-status">Stauts</p>
+                    </div>
+                </div>
+
+                <div class="filter-content" data-item="construction">
+                    <img src="img/exclusive/10.jpg" alt="">
+                    <p class="hover-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus
+                        exercitationem dolorum sit ipsum saepe provident vel repellat reprehenderit.</p>
+                    <div class="project-title-area">
+                        <p class="project-title">Project Title Here</p>
+                        <p class="project-status">Stauts</p>
+                    </div>
+                </div>
+
+                <div class="filter-content" data-item="construction">
+                    <img src="img/exclusive/11.jpg" alt="">
+                    <p class="hover-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus
+                        exercitationem dolorum sit ipsum saepe provident vel repellat reprehenderit.</p>
+                    <div class="project-title-area">
+                        <p class="project-title">Project Title Here</p>
+                        <p class="project-status">Stauts</p>
+                    </div>
+                </div>
+
+                <div class="filter-content" data-item="construction">
+                    <img src="img/exclusive/12.jpg" alt="">
+                    <p class="hover-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus
+                        exercitationem dolorum sit ipsum saepe provident vel repellat reprehenderit.</p>
+                    <div class="project-title-area">
+                        <p class="project-title">Project Title Here</p>
+                        <p class="project-status">Stauts</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- exclusive project gallery end -->
+
+
+
+
+
+    <!-- footer section start -->
+    <%- include('footer'); -%>
+
+    <!-- footer section end -->
+
+
+
+
+
+
+
+    <!-- bootstrap cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+
+    <!-- aos cdn link -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- custom js link -->
+    <script src="script.js"></script>
+</body>
+
+</html>

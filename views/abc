@@ -1,0 +1,44 @@
+<html>
+    <body>
+        <%- include('header'); -%>
+
+        <h1>display table</h1>
+        <% if(user_array.length>0) { %>
+            <table border="1">
+                <tr>
+                    <th>id</th>
+                    <th>name</th>
+                    <th>email</th>
+                    <th>phone</th>
+                    <th>password</th>
+                    <th>action</th>
+                </tr>
+                <% for(var i=0; i<user_array.length;i++) { %>
+                    <tr>
+                        <td><%= i+1 %></td>
+                     
+                        <td><%= user_array[i].user_name %></td>
+                        <td><%= user_array[i].user_email %></td>
+                        <td><%= user_array[i].user_phone %></td>
+                        <td><%= user_array[i].user_password %></td>
+
+
+                        <td>
+                        <a href="edit/<%= user_array[i]._id %>">edit</a>
+                        <a href="delete/<%= user_array[i]._id %>">delete</a>
+                        <a href="show/<%= user_array[i]._id %>">show</a>
+                        </td>
+                </tr>
+                <% } %>
+            </table>
+            <% } else { %>
+                no record found
+                <% } %>
+
+                                   
+
+                        
+       
+    </body>
+</html>
+
